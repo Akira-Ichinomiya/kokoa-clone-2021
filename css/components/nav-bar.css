@@ -19,21 +19,12 @@
 }
 
 .nav__notification {
-  background-color: tomato;
-  height: 30px;
-  width: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 15px;
-  color: white;
-  font-weight: 600;
   position: absolute;
   bottom: 14px;
   left: 17px;
 }
 
-.nav__notification4 {
+.nav__notification-find {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,4 +35,17 @@
   position: absolute;
   left: 30px;
   top: -17px;
+}
+
+.nav__notification__setting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  position: absolute;
+  right: -8px;
+  top: -10px;
 }

@@ -18,6 +18,15 @@
 .more-suggestions__icon {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   margin-right: 70px;
+}
+
+.more-suggestions__icon-image i {
+  background-color: var(--yellow);
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  color: white;
 }

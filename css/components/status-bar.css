@@ -2,9 +2,11 @@
   display: flex;
   justify-content: flex-start;
   padding: 5px 3px;
+  padding-bottom: 10px;
   box-sizing: border-box;
   top: 0;
   width: 100%;
+  position: fixed;
 }
 .status-bar__column {
   width: 33%;
